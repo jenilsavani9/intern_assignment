@@ -171,24 +171,24 @@
                                 <h5>Two Column</h5>
                                 <div>
                                     <div class="row">
-                                        <div class="form-floating mb-3 col">
+                                        <div class="form-floating mb-3 col-12 col-md-6">
                                             <input type="email" class="form-control" id="floatingInput"
                                                 placeholder="name@example.com">
                                             <label for="floatingInput">Name</label>
                                         </div>
-                                        <div class="form-floating mb-3 col">
+                                        <div class="form-floating mb-3 col-12 col-md-6">
                                             <input type="email" class="form-control" id="floatingInput"
                                                 placeholder="name@example.com">
                                             <label for="floatingInput">Username</label>
                                         </div>
                                     </div>
                                     <div class="row">
-                                        <div class="form-floating mb-3 col">
+                                        <div class="form-floating mb-3 col-12 col-md-6">
                                             <input type="email" class="form-control" id="floatingInput"
                                                 placeholder="name@example.com">
                                             <label for="floatingInput">Password</label>
                                         </div>
-                                        <div class="form-floating col">
+                                        <div class="form-floating col-12 col-md-6">
                                             <select class="form-select" id="floatingSelect"
                                                 aria-label="Floating label select example">
                                                 <option selected>Dropdown</option>
@@ -205,17 +205,17 @@
                             <div class="innerpage-content-three-column container">
                                 <h5>Three Column</h5>
                                 <div class="row">
-                                    <div class="form-floating mb-3 col">
+                                    <div class="form-floating mb-3 col-12 col-md-4">
                                         <input type="email" class="form-control" id="floatingInput"
                                             placeholder="name@example.com">
                                         <label for="floatingInput">Email address</label>
                                     </div>
-                                    <div class="form-floating mb-3 col">
+                                    <div class="form-floating mb-3 col-12 col-md-4">
                                         <input type="email" class="form-control" id="floatingInput"
                                             placeholder="name@example.com">
                                         <label for="floatingInput">Email address</label>
                                     </div>
-                                    <div class="form-floating mb-3 col">
+                                    <div class="form-floating mb-3 col-12 col-md-4">
                                         <input type="email" class="form-control" id="floatingInput"
                                             placeholder="name@example.com">
                                         <label for="floatingInput">Email address</label>
@@ -226,22 +226,22 @@
                             <div class="innerpage-content-four-column container">
                                 <h5>Four Column</h5>
                                 <div class="row">
-                                    <div class="form-floating mb-3 col">
+                                    <div class="form-floating mb-3 col-12 col-md-3">
                                         <input type="email" class="form-control" id="floatingInput"
                                             placeholder="name@example.com">
                                         <label for="floatingInput">Email address</label>
                                     </div>
-                                    <div class="form-floating mb-3 col">
+                                    <div class="form-floating mb-3 col-12 col-md-3">
                                         <input type="email" class="form-control" id="floatingInput"
                                             placeholder="name@example.com">
                                         <label for="floatingInput">Email address</label>
                                     </div>
-                                    <div class="form-floating mb-3 col">
+                                    <div class="form-floating mb-3 col-12 col-md-3">
                                         <input type="email" class="form-control" id="floatingInput"
                                             placeholder="name@example.com">
                                         <label for="floatingInput">Email address</label>
                                     </div>
-                                    <div class="form-floating mb-3 col">
+                                    <div class="form-floating mb-3 col-12 col-md-3">
                                         <input type="email" class="form-control" id="floatingInput"
                                             placeholder="name@example.com">
                                         <label for="floatingInput">Email address</label>
@@ -257,8 +257,10 @@
                                     <h6>File Upload</h6>
                                     <form>
                                         <div class="form-group">
-                                            <label for="exampleFormControlFile1">Example file input</label>
-                                            <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                                            <span class="btn btn-file form-group-up">
+                                                <img src="./images/cloud-upload-icon.svg" alt=""> Upload <input
+                                                    type="file">
+                                            </span>
                                         </div>
                                     </form>
                                 </div>
@@ -292,8 +294,8 @@
                                 <div class="innerpage-content-other-design-snackbar">
                                     <h6>Snack Bar</h6>
                                     <div class="row container">
-                                        <div class="alert d-flex align-items-center col me-2"
-                                            style="border: 1px solid red;">
+                                        <div class="alert d-flex align-items-center col-12 col-md-5"
+                                            style="border: 1px solid red; margin-right: 10px;">
                                             <img src="./images/error-icon.svg" alt=""
                                                 class="innerpage-content-other-design-snackbar-error-img">
                                             <div class="alert-error-message">
@@ -301,7 +303,7 @@
                                             </div>
                                         </div>
 
-                                        <div class="alert d-flex align-items-center col"
+                                        <div class="alert d-flex align-items-center col-12 col-md-5"
                                             style="border: 1px solid #00b9e1;">
                                             <img src="./images/error-icon.svg" alt=""
                                                 class="innerpage-content-other-design-snackbar-error-img">
@@ -312,8 +314,8 @@
                                     </div>
 
                                     <div class="row container">
-                                        <div class="alert d-flex align-items-center col me-2"
-                                            style="border: 1px solid #ffa800;">
+                                        <div class="alert d-flex align-items-center col-12 col-md-5"
+                                            style="border: 1px solid #ffa800; margin-right: 10px;">
                                             <img src="./images/warning-icon.svg" alt=""
                                                 class="innerpage-content-other-design-snackbar-error-img">
                                             <div class="alert-worning-message">
@@ -321,7 +323,7 @@
                                             </div>
                                         </div>
 
-                                        <div class="alert d-flex align-items-center col"
+                                        <div class="alert d-flex align-items-center col-12 col-md-5"
                                             style="border: 1px solid #00af27;">
                                             <img src="./images/success-icon.svg" alt=""
                                                 class="innerpage-content-other-design-snackbar-error-img">
