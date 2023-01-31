@@ -140,20 +140,24 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-10 col-12">
+                <div class="col-lg-10 col-12 dashboard-col-div">
 
-                    <!-- <div class="dashboard-main-content">
+
+
+                    <div class="dashboard-main-content d-flex flex-column">
                         <div class="dashboard-main-content-header">Dashboard</div>
-                        <div class="dashboard-stats">
-                            <div class="dashboard-main-stats">
-                                <div class="dashboard-main-stats-1">
+                        <div class="dashboard-stats d-flex flex-column">
+                            <div class="dashboard-main-stats row">
+                                <div
+                                    class="dashboard-main-stats-1 col d-flex justify-content-center align-items-center">
                                     <div><img src="images/star.svg" alt="" class="dashboard-main-stats-img"></div>
                                     <div>
                                         <div class="dashboard-main-stats-header">23,456</div>
                                         <div class="dashboard-main-stats-desc">New Product</div>
                                     </div>
                                 </div>
-                                <div class="dashboard-main-stats-2">
+                                <div
+                                    class="dashboard-main-stats-2 col d-flex justify-content-center align-items-center">
                                     <div><img src="images/new-product.svg" alt="" class="dashboard-main-stats-img">
                                     </div>
                                     <div>
@@ -161,7 +165,8 @@
                                         <div class="dashboard-main-stats-desc">Added Products</div>
                                     </div>
                                 </div>
-                                <div class="dashboard-main-stats-3">
+                                <div
+                                    class="dashboard-main-stats-3 col d-flex justify-content-center align-items-center">
                                     <div><img src="images/total-product.svg" alt="" class="dashboard-main-stats-img">
                                     </div>
                                     <div>
@@ -169,7 +174,8 @@
                                         <div class="dashboard-main-stats-desc">Total Products</div>
                                     </div>
                                 </div>
-                                <div class="dashboard-main-stats-4">
+                                <div
+                                    class="dashboard-main-stats-4 col d-flex justify-content-center align-items-center">
                                     <div><img src="images/dollar-filled.svg" alt="" class="dashboard-main-stats-img">
                                     </div>
                                     <div>
@@ -177,7 +183,8 @@
                                         <div class="dashboard-main-stats-desc">Today's Sale</div>
                                     </div>
                                 </div>
-                                <div class="dashboard-main-stats-5">
+                                <div
+                                    class="dashboard-main-stats-5 col d-flex justify-content-center align-items-center">
                                     <div><img src="images/money-bag.svg" alt="" class="dashboard-main-stats-img"></div>
                                     <div>
                                         <div class="dashboard-main-stats-header">335,342</div>
@@ -186,11 +193,11 @@
                                 </div>
                             </div>
 
-                            <div class="dashboard-sale-stats">
-                                <div class="dashboard-sale-sale">
-                                    <div class="dashboard-sale-sale-header">
-                                        <h3>Sale</h3>
-                                        <div class="dashboard-sale-sale-header-timeline">
+                            <div class="dashboard-sale-stats row">
+                                <div class="dashboard-sale-sale col-12 col-md-8">
+                                    <div class="dashboard-sale-sale-header d-flex">
+                                        <h3 class="col">Sale</h3>
+                                        <div class="dashboard-sale-sale-header-timeline col d-flex justify-content-end">
                                             <div class="dashboard-sale-sale-header-timeline-div">Weekly</div>
                                             <div class="dashboard-sale-sale-header-timeline-div">Monthly</div>
                                             <div class="dashboard-sale-sale-header-timeline-div">Yearly</div>
@@ -198,35 +205,38 @@
                                     </div>
 
                                     <div class="dashboard-sale-sale-img">
-                                        <img src="./images/data-graph.png" alt="">
+                                        <img src="./images/data-graph.png" alt="" class="img-fluid">
                                     </div>
                                 </div>
-                                <div class="dashboard-sale-country">
+                                <div class="dashboard-sale-country col-12 col-md-4">
                                     <h3>Sales by Country</h3>
-                                    <img src="./images/pie-chart.svg" alt="" class="dashboard-sale-country-chart">
-                                    <div class="dashboard-sale-country-div">
-                                        <div>
-                                            <div class="dashboard-sale-country-div-inline">
-                                                <img src="./images/radio-checked-icon.svg" alt=""
-                                                    class="dashboard-sale-country-icon">
-                                                <p>United States of America</p>
+                                    <div class="dashboard-sale-country-2 d-flex justify-content-center flex-column">
+                                        <img src="./images/pie-chart.svg" alt=""
+                                            class="dashboard-sale-country-chart img-fluid align-center">
+                                        <div class="dashboard-sale-country-div d-flex">
+                                            <div>
+                                                <div class="dashboard-sale-country-div-inline d-flex">
+                                                    <img src="./images/radio-checked-icon.svg" alt=""
+                                                        class="dashboard-sale-country-icon">
+                                                    <p>United States of America</p>
+                                                </div>
+                                                <div class="dashboard-sale-country-div-inline d-flex">
+                                                    <img src="./images/radio-checked-icon.svg" alt=""
+                                                        class="dashboard-sale-country-icon">
+                                                    <p>Russia</p>
+                                                </div>
                                             </div>
-                                            <div class="dashboard-sale-country-div-inline">
-                                                <img src="./images/radio-checked-icon.svg" alt=""
-                                                    class="dashboard-sale-country-icon">
-                                                <p>Russia</p>
-                                            </div>
-                                        </div>
-                                        <div>
-                                            <div class="dashboard-sale-country-div-inline">
-                                                <img src="./images/radio-checked-icon.svg" alt=""
-                                                    class="dashboard-sale-country-icon">
-                                                <p>Canada</p>
-                                            </div>
-                                            <div class="dashboard-sale-country-div-inline">
-                                                <img src="./images/radio-checked-icon.svg" alt=""
-                                                    class="dashboard-sale-country-icon">
-                                                <p>India</p>
+                                            <div>
+                                                <div class="dashboard-sale-country-div-inline d-flex">
+                                                    <img src="./images/radio-checked-icon.svg" alt=""
+                                                        class="dashboard-sale-country-icon">
+                                                    <p>Canada</p>
+                                                </div>
+                                                <div class="dashboard-sale-country-div-inline d-flex">
+                                                    <img src="./images/radio-checked-icon.svg" alt=""
+                                                        class="dashboard-sale-country-icon">
+                                                    <p>India</p>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -238,8 +248,8 @@
                                     <div class="dashboard-invoice-stats-header-left">Invoices</div>
                                     <div class="dashboard-invoice-stats-header-right">View All</div>
                                 </div>
-                                <div class="dashboard-invoice-stats-content">
-                                    <table class="dashboard-invoice-stats-content-table">
+                                <div class="dashboard-invoice-stats-content table-responsive">
+                                    <table class="dashboard-invoice-stats-content-table table">
                                         <tr class="dashboard-invoice-stats-content-table-tr">
                                             <th class="dashboard-invoice-stats-content-header">INVOICE</th>
                                             <th class="dashboard-invoice-stats-content-header">COMPANY NAME</th>
@@ -295,7 +305,8 @@
                                             <td>jackson.graham@example.com</td>
                                             <td>1 Feb, 2020</td>
                                             <td class="dashboard-invoice-stats-content-table-tr-failed">
-                                                <span>Failed</span></td>
+                                                <span>Failed</span>
+                                            </td>
                                             <td>$10,200</td>
                                         </tr>
 
@@ -326,7 +337,8 @@
                                             <td>navaeh.simmons@example.com</td>
                                             <td>17 Oct, 2020</td>
                                             <td class="dashboard-invoice-stats-content-table-tr-failed">
-                                                <span>Failed</span></td>
+                                                <span>Failed</span>
+                                            </td>
                                             <td>$28,000</td>
                                         </tr>
 
@@ -344,14 +356,13 @@
                                 </div>
                             </div>
                         </div>
-                    </div> -->
+                    </div>
 
 
                 </div>
             </div>
-        </div>
 
-    </div>
+        </div>
     </div>
 
 
